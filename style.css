@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Italico";
-    src: url(../desafio-cartao-blog/assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+    src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
 }
 @font-face{
-    font-family: "figtree";
-    src: url(../desafio-cartao-blog/assets/fonts/Figtree-VariableFont_wght.ttf);
+    font-family: "Figtree";
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
 }
 *{
     margin: 0;
@@ -13,4 +13,79 @@
 }
 body{
     background-color:  hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    margin-top: 17rem;
+    
+}
+.cartao{
+    display: flex;
+    flex-direction: column;
+    align-items: center safe;
+    background-color: hsl(0, 0%, 100%);
+    border: 0.2cap, solid, hsl(0, 0%, 7%);
+    box-shadow: 5px 5px 0px 5px hsl(0, 0%, 7%);
+    border-radius: 25px;
+    position: fixed;
+    height: 35rem;
+    width: 384px;
+    padding: 18px;
+}
+.cartao img{
+    margin-bottom: 18px;
+    border-radius: 20px;
+}
+.texto .leia{
+    color: hsl(0, 0%, 7%);
+    border-radius: 4px;
+    background-color: hsl(47, 88%, 63%);
+    width: 3.5rem;
+    padding: 7px 20px 7px 10px;
+    margin-bottom: 7px;
+    font-family: "Figtree", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+   font-weight: 800;
+   
+}
+
+.texto h2{
+    font-family: "Figtree", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+.texto h1{
+    font-family: "Figtree", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 24px 0px;
+    transition: 0.6s;
+}
+.texto h1:hover{
+color: hsl(47, 88%, 63%);
+}
+.texto p {
+    font-family: "Figtree", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.usuário{
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+    font-family: "Figtree", Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    gap: 8px
+}
+.usuário img{
+    height: 32px;
+    width: 32px;
+
+}
+.usuário h2{
+    margin-bottom: 14px;
+    font-weight: 800;
 }

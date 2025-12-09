@@ -13,7 +13,8 @@ The designs were created to the following widths:
 
 - Yellow: hsl(47, 88%, 63%)
 
-- White: hsl(0, 0%, 100%)
+- White:     
+
 
 - Gray 500: hsl(0, 0%, 42%)
 - Gray 950: hsl(0, 0%, 7%)
