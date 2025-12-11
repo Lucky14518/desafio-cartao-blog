@@ -15,9 +15,7 @@ body{
     background-color:  hsl(47, 88%, 63%);
     display: flex;
     justify-content: center;
-    margin-top: 17rem;
-    overflow-y: scroll;
-    
+    margin-top: 17rem; 
 }
 .cartao{
     display: flex;
@@ -27,7 +25,6 @@ body{
     border: 0.2cap, solid, hsl(0, 0%, 7%);
     box-shadow: 5px 5px 0px 5px hsl(0, 0%, 7%);
     border-radius: 25px;
-    position: fixed;
     height: 35rem;
     width: 384px;
     padding: 18px;
